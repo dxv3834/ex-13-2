@@ -1,0 +1,22 @@
+size(300, 500);
+fill(255, 0, 0, 160);
+beginShape();
+   vertex(100, 125); // arriba
+   vertex(200, 200); // derecha
+   vertex(100, 275); // abajo
+   vertex(1, 200);  // izquierda
+   endShape(CLOSE);
+   fill(153);
+   beginShape();
+   vertex(215, 215); // arriba
+   vertex(215, 315); // derecha
+   vertex(125, 370); // abajo
+   vertex(110, 280);  // izquierda
+   endShape(CLOSE);
+fill(0);
+   beginShape();
+   vertex(25, 350); // izquierda
+   vertex(100, 370); // abajo
+   vertex(85, 280); // derecha  listo
+   vertex(1, 225);  // arriba listo
+   endShape(CLOSE);
